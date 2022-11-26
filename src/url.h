@@ -8,14 +8,15 @@
 #ifndef URL_H_
 #define URL_H_
 
+#endif /* URL_H_ */
+
+
+#include <string>
+
 class URL {
 private:
 	std::string url;
 public:
-	URL();
+	URL(std::string url);
 	void Open();
 };
-
-
-
-#endif /* URL_H_ */
